@@ -14,5 +14,14 @@ provision-post.sh
 provision-pre.sh
 site.yml
 vendor
-wordpress
 wp-cli.yml
+
+/wordpress/*
+!/wordpress/favicon.ico
+!/wordpress/google*.html
+!/wordpress/wp-content
+/wordpress/wp-content/*
+!/wordpress/wp-content/uploads
+!/wordpress/wp-content/themes
+/wordpress/wp-content/themes/*
+!/wordpress/wp-content/themes/mywebsite
